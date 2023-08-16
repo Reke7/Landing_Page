@@ -1,0 +1,51 @@
+.hero, 
+.footer
+{
+    background-color: #1F2937;
+}
+
+.hero > h2
+{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.hero > p,
+.menu > ul
+{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header > h2
+{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+button,
+.cta
+{
+    background-color: #3882F6;
+}
+
+.info > h2
+{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.quote-container
+{
+    background-color: #E5E7EB;
+}
+
+.quote-container > p 
+{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
