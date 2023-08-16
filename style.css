@@ -114,6 +114,58 @@ button
 .item > img
 {
     width: 300px;
-    height: autos;
+    height: auto;
 }
 
+.quote-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-container > p
+{
+    width: 400px;
+    font-size: 18px;
+}
+
+.quote-container > h2
+{
+    margin-top: 2px;
+    font-size: 18px;
+    margin-left: 400px;
+}
+
+.cta
+{
+    display: flex;
+    align-items: center;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    justify-content: space-between;
+}
+
+.cta-text
+{
+    color: #E5E7EB;
+    justify-content: space-between;
+}
+
+.cta-button > button
+{
+    border: 2px solid rgb(231, 231, 231);
+    cursor: pointer;
+    padding: 8px 30px;
+}
+
+.footer
+{
+    text-align: center;
+    padding: 20px;
+}
+
+footer
+{
+    color: #E5E7EB;
+}
