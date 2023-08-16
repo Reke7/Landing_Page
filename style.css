@@ -65,8 +65,12 @@ button,
 }
 
 body{
-    max-width: 1400px; /* Adjust this value based on your design */
-    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar{
+    display: none;
 }
 
 .hero.image > img
